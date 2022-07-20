@@ -16,7 +16,8 @@ body {
     flex-direction: column;
     justify-content: center;
     background-color: #1F2937;
-    padding: 8px;
+    padding: 8px 400px 32px 400px;
+    align-content: center;
 }
 
 /*start  of header*/
@@ -46,13 +47,15 @@ body {
 
 .top-content {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-content: center;
+    
 }
 
 .main {
     display: flex;
     flex-direction: column;
+    max-width: 400px;
 }
 
 img {
