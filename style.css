@@ -42,9 +42,15 @@ body {
     font-weight: 700;
 }
 /*end of header*/
+/*start of top-content*/
 
 .top-content {
     display: flex;
     justify-content: center;
     align-content: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
 }
