@@ -88,3 +88,13 @@ img {
     align-items: center;
 
 }
+
+.box {
+    width: 32px;
+    height: 32px;
+    padding: 32px;
+    border-style: solid;
+    border-color: rgb(0, 110, 255);
+    border-radius: 5%;
+}
+
