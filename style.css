@@ -91,13 +91,9 @@ img {
 
 }
 
-.box {
-    width: 32px;
-    height: 32px;
-    padding: 32px;
-    border-style: solid;
-    border-color: rgb(0, 110, 255);
-    border-radius: 7%;
+h2 {
+    font-weight: 700;
+    margin: 32px;
 }
 
 .box-content-container {
@@ -114,3 +110,11 @@ img {
     flex-wrap: wrap;
 }
 
+.box {
+    width: 32px;
+    height: 32px;
+    padding: 32px;
+    border-style: solid;
+    border-color: rgb(0, 110, 255);
+    border-radius: 7%;
+}
