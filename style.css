@@ -8,6 +8,14 @@ body {
     flex: 1;
 }
 
+.top-background {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #1F2937;
+
+}
+
 .header {
     display: flex;
     align-items: center;
