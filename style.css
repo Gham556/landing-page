@@ -161,13 +161,19 @@ start of section 4*/
 .section-4 {
     display: flex;
     width: 800px;
-    background-color: blue;
+    max-height: 102px;
+    background-color: #3882F6;
     align-self: center; 
     margin: 100px;
     justify-content: center;
+    align-items: center;
+   
+    
+    
 }
 
 .cta-text {
-    display: flex;
-    flex-direction: column;
+    color: white;
+    margin: 32px 32px;
+    flex-shrink: 1;
 }
