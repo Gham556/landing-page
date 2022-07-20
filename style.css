@@ -130,3 +130,24 @@ h2 {
 
 /*start of section-3*/
 
+.section-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 510px;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    width: 600px;
+    margin-bottom: 0px;
+    font-size: 32px;
+    font-style: light italic;
+    color: #1F2937;
+}
+
+.thor {
+    align-self: flex-end;
+    font-weight: 700;
+}
