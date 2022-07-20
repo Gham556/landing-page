@@ -27,14 +27,15 @@ body {
     margin: 8px 0px 32px 0px;
     color:white;
     gap: 12px;
-    margin-bottom: ;
     
 }
 
 .link {
     display: flex;
     text-decoration: none;
-    color: white
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
 }
 
 .header-logo {
