@@ -167,13 +167,31 @@ start of section 4*/
     margin: 100px;
     justify-content: center;
     align-items: center;
-   
+    gap: 120px;;
     
     
 }
 
 .cta-text {
+    display: flex;
+    flex-direction: column;
     color: white;
-    margin: 32px 32px;
-    flex-shrink: 1;
+    margin: 32px 32px 32px 0px;
+    gap: 8px;
+    
+}
+
+.cta-01 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.cta-02 {
+    font-size: 12px;
+}
+
+.cta-button {
+    border-color: #E5E7EB;
+    box-shadow: none;
+    border-style: solid;
 }
